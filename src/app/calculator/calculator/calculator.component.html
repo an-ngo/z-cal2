@@ -1,0 +1,14 @@
+<h1>CALCULATOR</h1>
+<form #f="ngForm" (ngSubmit)="f.form.valid&&ngSubmit()">
+  <input type="text" name="number1" [(ngModel)]="form.number1">
+  <input type="text" name="number2" [(ngModel)]="form.number2">
+  <h1></h1>
+  <button>Submit</button>
+</form><br>
+<h1>{{result}}</h1>
+<hr>
+<input type="text" name="1st" [(ngModel)]="num1">
+<input type="text" name="2nd" [(ngModel)]="num2">
+
+
+
